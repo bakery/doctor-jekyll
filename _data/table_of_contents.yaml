@@ -1,5 +1,5 @@
 entries:
-  - title: Introduction
-    permalink: /introduction.html
   - title: Getting started
     permalink: /getting-started.html
+  - title: Configuration
+    permalink: /configuration.html
