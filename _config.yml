@@ -1,0 +1,42 @@
+permalink:           pretty
+
+# Setup
+title:               'Doctor Jekyll'
+tagline:             'Project documentation template'
+url:                 'https://bakery.github.io/doctor-jekyll'
+baseurl:             'https://bakery.github.io/doctor-jekyll'
+
+sass:
+  style: compressed
+
+# About/contact
+author:
+  name:              The Bakery
+  url:               https://twitter.com/bakeryhq
+  email:             hi@thebakery.io
+
+gems:                [algoliasearch-jekyll]
+
+# Custom vars
+version:             1.0.0
+
+exclude:             [vendor]
+
+github:
+  repository_url:    https://github.com/bakery/doctor-jekyll
+
+twitter:
+  handle:            bakeryhq
+
+algolia:
+  application_id:    'RJLGF63QKK'
+  index_name:        'docs'
+  read_only_api_key: 'c9e5cf2be0bd488a1e022c1f746f43c0'
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "The Bakery"
