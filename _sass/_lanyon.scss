@@ -86,7 +86,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
 }
 
 /*
@@ -96,10 +97,16 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
+  padding-left: 2.5rem;
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  background-color: $white;
 }
 
 .masthead-title {
@@ -108,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
 
   a {
-    color: #505050;
+    color: $red;
   }
   
   small {
@@ -304,7 +311,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.sidebar-search, .sidebar-social-buttons {
+.sidebar-search {
   margin-top: 2rem;
   padding: 0 1.5rem;
   
@@ -351,66 +358,6 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(16rem);
           transform: translateX(16rem);
 }
-
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
-
-.pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
-}
-
-/* Pagination items can be `span`s or `a`s */
-.pagination-item {
-  display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
-}
-.pagination-item:first-child {
-  margin-bottom: -1px;
-}
-
-/* Only provide a hover state for linked pagination items */
-a.pagination-item:hover {
-  background-color: #f5f5f5;
-}
-
-@media (min-width: 30em) {
-  .pagination {
-    margin: 3rem 0;
-  }
-  .pagination-item {
-    float: left;
-    width: 50%;
-  }
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
-  }
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
-}
-
-.pagination-prev {
-  float: left;
-}
-
-.pagination-next {
-  float: right;
-}
-
 
 /*
  * Reverse layout

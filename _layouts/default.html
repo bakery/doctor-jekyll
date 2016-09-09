@@ -11,19 +11,17 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
       </div>
 
       <div class="container content">
         <div class="algolia__initial-content js-algolia__initial-content">
-          {% include edit_this_page.html %}
           {{ content }}
           {% include pagination.html %}
+          {% include edit_this_page.html %}
         </div>
 
         <div class="algolia__search-content js-algolia__search-content">
