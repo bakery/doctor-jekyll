@@ -413,31 +413,6 @@ a.pagination-item:hover {
 
 
 /*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
- * on the right side.
- */
-
-.layout-reverse .sidebar {
-  left: auto;
-  right: -16rem;
-}
-.layout-reverse .sidebar-toggle {
-  left: auto;
-  right: 1rem;
-}
-
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
-.layout-reverse #sidebar-checkbox:checked ~ .wrap,
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(-16rem);
-      -ms-transform: translateX(-16rem);
-          transform: translateX(-16rem);
-}
-
-
-/*
  * Themes
  *
  * Apply custom color schemes by adding the appropriate class to the `body`.
@@ -462,10 +437,6 @@ a.sidebar-nav-item:focus {
   color: $theme_color;
 }
 
-/* Only one tweak for a reverse layout */
-.layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
-}
 
 /*
  * Overlay sidebar
