@@ -4,21 +4,8 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-
-  <div class="sidebar-search">
-    <input type="text" style="background-image: url({{site.baseurl}}/public/images/search.png);" class="algolia__input js-algolia__input" autocomplete="off" name="query" />
-  </div>
-
-  <div class="sidebar-social-buttons">
-    {% include social_buttons.html %}
-  </div>
-
+  {% include search.html %}
   <nav class="sidebar-nav">
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
     {% for item in site.data.table_of_contents.entries %}
       {% if item.permalink %}
         <a class="sidebar-nav-item{% if page.url == item.permalink %} active{% endif %}" href="{{site.baseurl}}{{item.permalink}}">{{item.title}}</a>
@@ -31,12 +18,6 @@
       {% endif %}
     {% endfor %}
   </nav>
-
-  <!-- <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div> -->
 </div>
 
 {% comment %}

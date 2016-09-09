@@ -8,6 +8,7 @@ $cyan: #75b5aa;
 $blue: #6a9fb5;
 $magenta: #aa759f;
 $brown: #8f5536;
+$white: #ffffff;
 
 /* Selected Theme */
 
@@ -18,4 +19,6 @@ $theme_color: $red;
 $small-bp: 38em;
 $medium-bp: 48em;
 $large-bp: 56em;
-$layout-bp: 68em;
+
+/* Sidebar is collapsed when below this width*/
+$collapse-sidebar-min-width : 68em;

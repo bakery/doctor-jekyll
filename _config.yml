@@ -32,6 +32,8 @@ algolia:
   application_id:    'RJLGF63QKK'
   index_name:        'docs'
   read_only_api_key: 'c9e5cf2be0bd488a1e022c1f746f43c0'
+  excluded_files:
+    - 404.html
 
 defaults:
   -

@@ -1,5 +1,7 @@
-<a class="pagination-prev hide"></a>
-<a class="pagination-next hide"></a>
+<div class="pagination">
+  <a class="pagination-prev hide"></a>
+  <a class="pagination-next hide"></a>
+</div>
 <script>
   try {
     var tableOfContents = JSON.parse('{{site.data.table_of_contents}}'.replace(/\=\>/g,':'));
@@ -57,12 +59,12 @@
       var entry = locateCurrentPageEntry(flattenTableOfContents(tableOfContents.entries));
       if (entry && entry.next) {
         setupLink('.pagination-next',
-          entry.next.permalink, 'Next up: ' + entry.next.title);
+          entry.next.permalink, entry.next.title + ' &gt;');
       }
 
       if (entry && entry.prev) {
         setupLink('.pagination-prev', entry.prev.permalink,
-          'Previously: ' + entry.prev.title);
+          '&lt; ' + entry.prev.title);
       }
     }
   } catch(e) {
