@@ -97,7 +97,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-left: 2.5rem;
+  @media (min-width: $collapse-sidebar-min-width) {
+    padding-left: 2.5rem;
+  }
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -302,6 +304,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: $small-bp) {
   .sidebar-toggle {
     position: fixed;
+    z-index: 2000;
   }
 }
 
@@ -428,7 +431,7 @@ a.sidebar-nav-item:focus {
   box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
 }
 
-@media (min-width: $layout-bp) {
+@media (min-width: $collapse-sidebar-min-width) {
   .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar,
   .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
     box-shadow: none;

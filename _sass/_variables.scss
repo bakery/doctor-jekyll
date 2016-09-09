@@ -19,4 +19,6 @@ $theme_color: $red;
 $small-bp: 38em;
 $medium-bp: 48em;
 $large-bp: 56em;
-$layout-bp: 68em;
+
+/* Sidebar is collapsed when below this width*/
+$collapse-sidebar-min-width : 68em;
