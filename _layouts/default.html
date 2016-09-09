@@ -24,10 +24,7 @@
           {% include edit_this_page.html %}
         </div>
 
-        <div class="algolia__search-content js-algolia__search-content">
-          <h1 class="page-title">Search</h1>
-          <div class="posts algolia__results"></div>
-        </div>
+        {% include search_results.html %}
       </div>
     </div>
 
@@ -96,7 +93,7 @@
     <script id="algolia__template" type="text/template">
     {% raw %}
       <div class="algolia__result">
-        <a class="algolia__result-link" href="{{ full_url }}#algolia:{{ css_selector }}">{{{ _highlightResult.title.value }}}</a>
+        <a class="algolia__result-link" href="{{ full_url }}">{{{ _highlightResult.title.value }}}</a>
         {{#posted_at}}
         <div class="algolia__result-date">{{ posted_at_readable }}</div>
         {{/posted_at}}
