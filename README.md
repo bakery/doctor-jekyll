@@ -51,6 +51,11 @@ github:
   repository_url:    https://github.com/bakery/doctor-jekyll
 ```
 
+### Responsive Layout
+
+By default, the navigation sidebar is shown above the `$medium-bp` breakpoint (860px). Below that screen width, the navigation menu is hidden and the drawer icon appears to toggle the menu. You can change the breakpoint value in  `_variables.scss`. 
+
+
 ## Credits
 
 **Mark Otto** for building Lanyon & Poole.
