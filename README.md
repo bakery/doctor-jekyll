@@ -2,7 +2,7 @@
 
 Doctor Jekyll is a fork of [Lanyon](https://github.com/poole/lanyon), a [Jekyll](http://jekyllrb.com) theme, built specifically for publishing documentation.
 
-[!Doctor Jekyll Documentation Generator](.github/doctor-jekyll.png)
+![Doctor Jekyll Documentation Generator](.github/doctor-jekyll.png)
 
 ## Super quick start
 
@@ -16,13 +16,11 @@ Doctor Jekyll is a fork of [Lanyon](https://github.com/poole/lanyon), a [Jekyll]
 
 Fore more detail documentation look [here](https://bakery.github.io/doctor-jekyll/)
 
-## Credits
+## Credits + Thanks
 
-**Mark Otto** for building Lanyon & Poole.
-
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
+- [Mark Otto](https://github.com/mdo) for building [Lanyon](https://github.com/poole/lanyon) & [Poole](https://github.com/poole/poole).
+- [Algolia](http://algolia.com) for awesome search
+- [Travis](https://travis-ci.org) for awesome CI
 
 ## License
 
