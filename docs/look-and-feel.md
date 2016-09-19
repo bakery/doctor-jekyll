@@ -1,5 +1,5 @@
 ---
-title: Documentation Search
+title: Look and Feel
 permalink: /look-and-feel.html
 ---
 # Look and Feel
