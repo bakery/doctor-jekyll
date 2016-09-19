@@ -1,5 +1,9 @@
 entries:
-  - title: Getting started
-    permalink: /getting-started.html
-  - title: Configuration
-    permalink: /configuration.html
+  - title: Adding Content
+    permalink: /adding-content.html
+  - title: Documentation Search
+    permalink: /documentation-search.html
+  - title: Hosting
+    permalink: /hosting.html
+  - title: Examples
+    permalink: /examples.html
