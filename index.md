@@ -5,7 +5,9 @@ title: Doctor Jekyll - Documentation template
 
 # Doctor Jekyll - Documentation template
 
-Doctor Jekyll is a [Jekyll](https://jekyllrb.com/) based template for your project's documentation. You can get started in minutes and get your docs hosted on Github using Github Pages in no time. Doctor Jekyll also has built in documentation search powered by [Algolia](https://www.algolia.com/)
+Doctor Jekyll is a fork of [Lanyon](https://github.com/poole/lanyon), a [Jekyll](http://jekyllrb.com) theme, built specifically for publishing documentation. 
+
+You can get started in minutes and get your docs hosted on Github using Github Pages in no time. Doctor Jekyll also has built in documentation search powered by [Algolia](https://www.algolia.com/)
 
 ## Super quick start
 
@@ -16,3 +18,10 @@ Doctor Jekyll is a [Jekyll](https://jekyllrb.com/) based template for your proje
 - Set up your Travis CI and include **ALGOLIA_API_KEY** env variable
 - git push
 - Profit!
+
+## Credits
+
+**Mark Otto** for building Lanyon & Poole.
+
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
