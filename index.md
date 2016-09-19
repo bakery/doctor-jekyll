@@ -19,9 +19,14 @@ You can get started in minutes and get your docs hosted on Github using Github P
 - git push
 - Profit!
 
-## Credits
+## Credits + Thanks
 
-**Mark Otto** for building Lanyon & Poole.
+- [Mark Otto](https://github.com/mdo) for building [Lanyon](https://github.com/poole/lanyon) & [Poole](https://github.com/poole/poole).
+- [Algolia](http://algolia.com) for awesome search
+- [Travis](https://travis-ci.org) for awesome CI
 
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
+
+<3
