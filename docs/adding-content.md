@@ -2,9 +2,9 @@
 title: Adding content
 permalink: /adding-content.html
 ---
-# Adding content
+# Adding Content
 
-All your documentation is located in the **docs** directory. Just like with any Jekyll powered site, you can use Markdown and html in your files. A good starting point for a new entry would be and Markdown file that looks something like this
+All your documentation is located in the **docs** directory. Just like with any Jekyll powered site, you can use Markdown and html in your files. A good starting point for a new entry would be and Markdown file that looks something like this:
 
 ```markdown
 ---
@@ -34,4 +34,4 @@ entries:
     permalink: /configuration.html
 ```
 
-**Note:** Permalink attribute needs to match permalink setting in the page content shown above  
+**Note:** Permalink attribute needs to match permalink setting in the page content shown above. 

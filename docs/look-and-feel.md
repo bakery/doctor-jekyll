@@ -4,11 +4,11 @@ permalink: /look-and-feel.html
 ---
 # Look and Feel
 
-There are a couple of things you can tweak to customize what your documentation looks like
+There are a couple of things you can tweak to customize what your documentation looks like.
 
 ## Themes
 
-Doctor Jekyll leverages the eight color themes defined by [Lanyon](https://github.com/poole/lanyon). You can update the theme color by updating `_sass/_variables.scss`:
+Doctor Jekyll leverages the eight color themes defined by [Lanyon](https://github.com/poole/lanyon). You can update the theme color by updating **_sass/_variables.scss**:
 
 ```scss
 /* Selected Theme */

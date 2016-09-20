@@ -2,13 +2,13 @@
 title: Documentation Search
 permalink: /documentation-search.html
 ---
-# Documenation Search
+# Documentation Search
 
 Doctory Jekyll has built-in documentation search powered by [Algolia](https://www.algolia.com/). All your docs are automagically reindexed on every push. Here's what you need to do to enable this.
 
 ## Set up Algolia
 
-Head to Algolia's [website](https://www.algolia.com/) and login/signup. Go to [API keys section](https://www.algolia.com/api-keys) of the dashboard. You will need your Algolia **Application ID** and **Search only API key**. Then head to **_config.yaml** and update things accordingly
+Head to Algolia's [website](https://www.algolia.com/) and login/signup. Go to [API keys section](https://www.algolia.com/api-keys) of the dashboard. You will need your Algolia **Application ID** and **Search only API key**. Then head to **_config.yaml** and update things accordingly:
 
 ```yaml
 algolia:
